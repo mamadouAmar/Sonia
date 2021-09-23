@@ -1,6 +1,9 @@
 from django.shortcuts import render
-from .views import *
+from django.http import HttpResponse
+from django.template import loader
 
 # Create your views here.
 def afficher_home(request):
-    return render(request, "index.html")
+
+    template = loader.get_template('sonia/index.html')
+    return HttpResponse(template.render(request = request))

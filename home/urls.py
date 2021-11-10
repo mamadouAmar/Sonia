@@ -19,5 +19,6 @@ from .views import *
 
 
 urlpatterns = [
-    path('', afficher_home, name = 'home')
+    path('', afficher_home, name = 'home'),
+    path('about/', about, name = 'about')
 ]

@@ -19,6 +19,6 @@ from .views import *
 
 
 urlpatterns = [
-    
+    path('', product, name = "produits")
 ]
 

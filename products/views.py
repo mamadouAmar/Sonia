@@ -1,8 +1,7 @@
-from django.http.response import HttpResponse
 from django.shortcuts import render
-from django.template import loader
+from .models import *
 
 # Create your views here.
 def product(request):
-    template = loader.get_template('produit.html')
-    return HttpResponse(template.render(request = request))
+    produits = Produit.objects.all()
+    return render(request, 'produit.html', {'produits' : produits})

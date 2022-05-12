@@ -26,7 +26,7 @@ p {
   font-weight: 800;
 }
 .site-heading .site-heading-lower {
-  font-size: 5rem;
+  font-size: 1rem;
   font-weight: 100;
   line-height: 4rem;
 }
@@ -41,12 +41,12 @@ p {
 }
 .section-heading .section-heading-upper {
   display: block;
-  font-size: 0.5rem;
+  font-size: 1.5rem;
   font-weight: 800;
 }
 .section-heading .section-heading-lower {
   display: block;
-  font-size: 0.2rem;
+  font-size: 1.2rem;
   font-weight: 100;
 }
 
@@ -108,7 +108,7 @@ p {
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: rgba(230, 167, 86, 0.9);
+  background-color: rgba(27, 107, 160, 0.9);
 }
 .cta .cta-inner {
   position: relative;

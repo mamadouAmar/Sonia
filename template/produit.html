@@ -13,30 +13,25 @@
 
 
 {% block content%}
-<section class="page-section row">
+<section class="page-section row justify-content-center">
 
     {% for produit in produits %}
-        <div class="container col-md-4 card border mb-5 p-3">
-            <div class="product-item border">
-                <div class="product-item-title d-flex border">
-                    <div class="bg-faded p-5 d-flex ms-auto rounded">
-                        <h4 class="section-heading mb-0">
-                            <span class="section-heading-upper"> {{ produit.libelle }} </span>
-                            <span class="section-heading-lower">{{ produit.prix }} FCFA</span>
-                        </h4>
-                    </div>
+        <div class="card mb-3 rounded" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="{{ produit.image.url }}" class="img-thumbnail rounded" alt="...">
                 </div>
-                <img class="product-item-img mx-auto d-flex rounded border img-fluid mb-3 mb-lg-0" src="{{ produit.image.url }}" alt="..." />
-                <div class="product-item-description d-flex me-auto">
-                    <div class="bg-faded p-5 rounded">
-                        <h5 class="section-heading-upper"> Mode d'emploi </h5>
-                        <p class="mb-2">{{ produit.mode_d_emploi }}</p>
-                        <h5 class="section-heading-upper"> Ingredients </h5>
-                        <p class="mb-0">{{ produit.ingredients }}</p>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title section-heading-upper">{{ produit.libelle }} </h5>
+                        <h5 class="section-heading-lower">{{ produit.prix }} FCFA</h5>
+                        <p class="card-text">{{ produit.mode_d_emploi }}</p>
+                        <p class="card-text"><small class="text-muted">{{ produit.ingredients }}</small></p>
                     </div>
                 </div>
             </div>
-        </div>
+      </div>
+
     {% endfor %}
 </section>
 {% endblock content%}

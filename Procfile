@@ -1,1 +1,0 @@
-web: gunicorn sonia.wsgi --log-file -

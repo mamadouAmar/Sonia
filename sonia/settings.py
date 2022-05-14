@@ -61,6 +61,7 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'sonia.urls'
 
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+STATICFILES_STORAGE = "whitenoise.storage.CompressedStaticFilesStorage"
 
 
 TEMPLATES = [
@@ -152,8 +153,8 @@ STATICFILES_DIRS = [BASE_DIR / "static"]
 MEDIA_ROOT = os.path.join(BASE_DIR, '')
 MEDIA_URL = '/'
 
-django_heroku.settings(locals())
+#django_heroku.settings(locals())
 
-#import dj_database_url 
+import dj_database_url 
 
-#db_from_env = dj_database_url.config(conn_max_age = 600)
+db_from_env = dj_database_url.config(conn_max_age = 600)

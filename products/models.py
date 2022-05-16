@@ -19,7 +19,7 @@ class Produit(models.Model):
 
 
 class Assets(models.Model):
-    asset = models.ImageField(("image"), upload_to=None, height_field=None, width_field=None, max_length=None, default="")    
+    asset = models.ImageField(("image"), upload_to="assets/images/", height_field=None, width_field=None, max_length=None, default="")    
     date_ajout = models.DateTimeField(("date"), auto_now=False, auto_now_add=False, default = timezone.now)
     produit = models.ForeignKey("Produit", verbose_name=("produit"), on_delete=models.CASCADE, null=True, blank=True)
 

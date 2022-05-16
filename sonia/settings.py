@@ -13,9 +13,6 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 import os
 from pathlib import Path
 import django_heroku
-import dj_database_url 
-
-#db_from_env = dj_database_url.config(conn_max_age = 600)
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -62,9 +59,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'sonia.urls'
-
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
-#STATICFILES_STORAGE = "whitenoise.storage.CompressedStaticFilesStorage"
 
 
 TEMPLATES = [
@@ -153,12 +148,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 STATICFILES_DIRS = [BASE_DIR / "static"]
 
-STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-MEDIA_URL = '/media/'
-
+MEDIA_ROOT = os.path.join(BASE_DIR, '')
+MEDIA_URL = '/'
 
 django_heroku.settings(locals())
 

@@ -12,7 +12,9 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 import os
 from pathlib import Path
-import django_heroku
+import dj_database_url 
+
+#import django_heroku
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -59,7 +61,6 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'sonia.urls'
-STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 
 TEMPLATES = [
@@ -101,6 +102,9 @@ DATABASES = {
         'PORT': '5432',
     }
 }
+
+DATABASES['default'] = dj_database_url.config(conn_max_age = 600)
+STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 
 # Password validation
@@ -152,8 +156,6 @@ STATIC_ROOT = BASE_DIR / "static"
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 
-django_heroku.settings(locals())
+#django_heroku.settings(locals())
 
-# import dj_database_url 
 
-# db_from_env = dj_database_url.config(conn_max_age = 600)

@@ -155,7 +155,7 @@ STATICFILES_DIRS = [BASE_DIR / "static"]
 
 MEDIA_ROOT = os.path.join(BASE_DIR, '')
 MEDIA_URL = '/'
-django_heroku.settings(locals())
+#django_heroku.settings(locals())
 
 # import dj_database_url 
 

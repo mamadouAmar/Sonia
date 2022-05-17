@@ -234,6 +234,240 @@
         }
     },
     {
+        "model": "admin.logentry",
+        "pk": 19,
+        "fields": {
+            "action_time": "2022-05-16T20:23:37.648Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "6",
+            "object_repr": "Vinaigrette",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 20,
+        "fields": {
+            "action_time": "2022-05-16T20:23:43.540Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "5",
+            "object_repr": "Purée de piment",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 21,
+        "fields": {
+            "action_time": "2022-05-16T20:23:49.021Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "4",
+            "object_repr": "Roff Bou saff",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 22,
+        "fields": {
+            "action_time": "2022-05-16T20:23:54.386Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "3",
+            "object_repr": "sauce verte",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 23,
+        "fields": {
+            "action_time": "2022-05-16T20:23:58.313Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "2",
+            "object_repr": "Sauce Barbecue",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 24,
+        "fields": {
+            "action_time": "2022-05-16T20:24:02.448Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Nokoss",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 25,
+        "fields": {
+            "action_time": "2022-05-16T20:24:13.011Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "6",
+            "object_repr": "Vinaigrette",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 26,
+        "fields": {
+            "action_time": "2022-05-16T20:24:21.184Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "5",
+            "object_repr": "Purée de piment",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 27,
+        "fields": {
+            "action_time": "2022-05-16T20:24:39.875Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "4",
+            "object_repr": "Roff Bou saff",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 28,
+        "fields": {
+            "action_time": "2022-05-16T20:24:57.188Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "3",
+            "object_repr": "sauce verte",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 29,
+        "fields": {
+            "action_time": "2022-05-16T20:25:08.371Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "2",
+            "object_repr": "Sauce Barbecue",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 30,
+        "fields": {
+            "action_time": "2022-05-16T20:25:22.671Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Nokoss",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 31,
+        "fields": {
+            "action_time": "2022-05-16T20:25:54.613Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "7",
+            "object_repr": "2021-07-24 17:59:47+00:00",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 32,
+        "fields": {
+            "action_time": "2022-05-16T20:26:06.153Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "6",
+            "object_repr": "2021-07-24 17:59:35+00:00",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 33,
+        "fields": {
+            "action_time": "2022-05-16T20:26:15.902Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "5",
+            "object_repr": "2021-07-24 17:59:20+00:00",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 34,
+        "fields": {
+            "action_time": "2022-05-16T20:26:20.039Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "4",
+            "object_repr": "2021-07-24 17:59:06+00:00",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 35,
+        "fields": {
+            "action_time": "2022-05-16T20:26:24.495Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "3",
+            "object_repr": "2021-07-24 17:58:45+00:00",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 36,
+        "fields": {
+            "action_time": "2022-05-16T20:26:28.907Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "2",
+            "object_repr": "2021-07-24 17:58:31+00:00",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
         "model": "auth.permission",
         "pk": 1,
         "fields": {
@@ -561,8 +795,8 @@
         "model": "auth.user",
         "pk": 1,
         "fields": {
-            "password": "pbkdf2_sha256$150000$caKnQcb1fW5I$HndEkBjdwYYl9+Uezi+OuOekspPkbwzPhxh+rQQBymw=",
-            "last_login": "2021-12-27T12:20:16.567Z",
+            "password": "pbkdf2_sha256$320000$S653LiZJkFAFLZ7n3kriY7$ITebMvrhIhbmAKuAsVh7IbyBiIHiQWzT9rdPqNdtIk8=",
+            "last_login": "2022-05-16T20:23:24.904Z",
             "is_superuser": true,
             "username": "admin",
             "first_name": "",
@@ -636,7 +870,15 @@
         "pk": 8,
         "fields": {
             "app_label": "products",
-            "model": ["assets", "produit"]
+            "model": "assets"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 9,
+        "fields": {
+            "app_label": "products",
+            "model": "produit"
         }
     },
     {
@@ -663,7 +905,7 @@
             "prix": 2000.0,
             "mode_d_emploi": "Marinade extra forte ajouté à vos sauces oignons dans vos repas de base de poulet et viande",
             "ingredients": "Ciboulette, Persil, Poivron, Ail, Piment, Curry, Sel, Poivre en forte dose, Coriande",
-            "image": "images/nokoss.jpeg"
+            "image": "produits/images/nokoss.jpeg"
         }
     },
     {
@@ -674,7 +916,7 @@
             "prix": 2000.0,
             "mode_d_emploi": "Mélanger avec de la viande, poulet et poisson déja cuit à la à la vapeur ou non cuit pour ensuite le mettre au  grillage au four ou au feux de bois;",
             "ingredients": "Ciboulettte, persil, poivron; ail, piment, Curry, grain de moutarde, sel, poivre, melange d'épice naturelles, sauce barbecue.",
-            "image": "images/sauceBarbecue.jpeg"
+            "image": "produits/images/sauceBarbecue.jpeg"
         }
     },
     {
@@ -685,7 +927,7 @@
             "prix": 2000.0,
             "mode_d_emploi": "La sauce verte est une sauce d'accompagnement de vos poulet, poisson ou viande déjà cuits",
             "ingredients": "Ciboulettte, persil, poivron; ail, piment, Curry, grain de moutarde, sel, poivre, coriande, mélange d'épice naturelles.",
-            "image": "images/sauceVerte.jpeg"
+            "image": "produits/images/sauceVerte.jpeg"
         }
     },
     {
@@ -696,7 +938,7 @@
             "prix": 2000.0,
             "mode_d_emploi": "Pour mariner vos darnes de riz au poisson ou djolof rice.Mattez un trou sur vos darnes prenez une petite quantité du roff et remplissez le trou puis passez à la cuisson.",
             "ingredients": "persil, sel, poivre, ail, laurier, paprika et cayenne",
-            "image": "images/roff.jpeg"
+            "image": "produits/images/roff.jpeg"
         }
     },
     {
@@ -707,7 +949,7 @@
             "prix": 1500.0,
             "mode_d_emploi": "purée de piment pour accompagner vos plats",
             "ingredients": "piment, ail, sel, vinaigre",
-            "image": "images/pureePiment.jpeg"
+            "image": "produits/images/pureePiment.jpeg"
         }
     },
     {
@@ -718,61 +960,7 @@
             "prix": 2000.0,
             "mode_d_emploi": "Vinaigrette pour accompagner vos salade.",
             "ingredients": "Herbes de province, basilic, vinaigre, moutarde, miel, sel, ail, feuille de menthe, poivre",
-            "image": "images/vinaigrette.jpeg"
-        }
-    },
-    {
-        "model": "products.assets",
-        "pk": 2,
-        "fields": {
-            "asset": "None/image0_YrFm6aH.jpeg",
-            "date_ajout": "2021-07-24T17:58:31Z",
-            "produit": 1
-        }
-    },
-    {
-        "model": "products.assets",
-        "pk": 3,
-        "fields": {
-            "asset": "None/image1.jpeg",
-            "date_ajout": "2021-07-24T17:58:45Z",
-            "produit": 2
-        }
-    },
-    {
-        "model": "products.assets",
-        "pk": 4,
-        "fields": {
-            "asset": "None/image2.jpeg",
-            "date_ajout": "2021-07-24T17:59:06Z",
-            "produit": 3
-        }
-    },
-    {
-        "model": "products.assets",
-        "pk": 5,
-        "fields": {
-            "asset": "None/image3.jpeg",
-            "date_ajout": "2021-07-24T17:59:20Z",
-            "produit": 4
-        }
-    },
-    {
-        "model": "products.assets",
-        "pk": 6,
-        "fields": {
-            "asset": "None/image4.jpeg",
-            "date_ajout": "2021-07-24T17:59:35Z",
-            "produit": 5
-        }
-    },
-    {
-        "model": "products.assets",
-        "pk": 7,
-        "fields": {
-            "asset": "None/image5.jpeg",
-            "date_ajout": "2021-07-24T17:59:47Z",
-            "produit": 6
+            "image": "produits/images/vinaigrette.jpeg"
         }
     }
 ]

@@ -870,15 +870,7 @@
         "pk": 8,
         "fields": {
             "app_label": "products",
-            "model": "assets"
-        }
-    },
-    {
-        "model": "contenttypes.contenttype",
-        "pk": 9,
-        "fields": {
-            "app_label": "products",
-            "model": "produit"
+            "model": ["assets", "produit"]
         }
     },
     {

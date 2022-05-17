@@ -11,7 +11,7 @@ class DepenseModel(models.Model):
         verbose_name_plural = "Depenses"
 
     def __str__(self):
-        return produit
+        return self.produit
 
 
     def depense_journalier(jour):

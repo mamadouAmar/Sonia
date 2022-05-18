@@ -1,1 +1,1 @@
-web: gunicorn sonia.wsgi --log-file -
+web gunicorn sonia.wsgi:application --log-file -

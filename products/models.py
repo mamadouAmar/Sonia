@@ -9,6 +9,7 @@ class Produit(models.Model):
     mode_d_emploi = models.TextField(("mode d'emploi"), default = "", blank = True, null=True)
     ingredients = models.TextField(("ingredients"), default = "", blank = True, null=True)
     image = models.ImageField(("image"), upload_to="produits/images/", height_field=None, width_field=None, max_length=None, null=True, blank=True)
+    imageUrl = models.CharField((""), max_length=200, null=True, blank=True)
 
     class Meta:
         verbose_name = "Produit"

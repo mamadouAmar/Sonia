@@ -93,10 +93,10 @@ WSGI_APPLICATION = 'sonia.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql', # on utilise l'adaptateur postgresql
-        'NAME': 'dcjq9hccs24sh2', # le nom de notre base de donnees creee precedemment
-        'USER': 'medqmfzbwtgehd', # attention : remplacez par votre nom d'utilisateur
-        'PASSWORD': '142b851d920d4a251d385de112378e74f18d86308a7481c25fad59217ed44b20',
-        'HOST': 'ec2-99-80-170-190.eu-west-1.compute.amazonaws.com',
+        'NAME': 'de5386qer96j05', # le nom de notre base de donnees creee precedemment
+        'USER': 'uvszrgirrrlvau', # attention : remplacez par votre nom d'utilisateur
+        'PASSWORD': '88d6f722271aea71bce14cc980826cfc8b0bf896e78b2158b5a7dd44c3b51363',
+        'HOST': 'ec2-54-77-40-202.eu-west-1.compute.amazonaws.com',
         'PORT': '5432',
     }
 }
